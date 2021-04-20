@@ -48,7 +48,7 @@
 							<article class="post featured">
 								<header class="major">
 									<span class="date"><h3>我的联络方式</h3></span>
-									<h2><a href="tel:17086265168" target="_self"><img src="tel.png" width="127" height="128" alt=""></a><a href="weixin://" onclick="copyUrl2()" target="_self"><img src="chat.png" width="130" height="128" alt=""></a><a href="http://wpa.qq.com/msgrd?v=3&uin=824772061&site=qq&menu=yes" target="_self"><img src="spqq.png" width="130" height="128" alt=""></a></h2>
+									<h2><a href="tel:17086265168" target="_self"><img src="tel.png" width="127" height="128" alt=""></a><a href="weixin://" onclick="copyUrl2('AndroidPK')" target="_self"><img src="chat.png" width="130" height="128" alt=""></a><a href="http://wpa.qq.com/msgrd?v=3&uin=824772061&site=qq&menu=yes" target="_self"><img src="spqq.png" width="130" height="128" alt=""></a></h2>
 									<h2>&nbsp;</h2>
 									
 
@@ -83,10 +83,10 @@ function showToast(msg,duration){
 }
 
 
-      function copyUrl2()
+      function copyUrl2(Url2)
             {
 			showToast('复制成功',1000);
-                var Url2="AndroidPK"
+               // var Url2="AndroidPK"
                 var oInput = document.createElement('input');
                 oInput.value = Url2;
                 document.body.appendChild(oInput);
